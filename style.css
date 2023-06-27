@@ -1,0 +1,76 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    padding: 80px 0;
+    margin-bottom: 50px; /* Додано відстань між секціями */
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Стилі для навігаційного меню */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+/* Стилі для секцій */
+.profile-picture {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.skill {
+    margin-bottom: 80px;
+}
+
+.progress-bar {
+    height: 20px;
+    margin-bottom: 20px; /* Додано більшу відстань між progress-bar */
+}
+
+.project {
+    margin-bottom: 80px;
+}
+
+.project img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 0;
+    margin-bottom: 20px; /* Додано більшу відстань між зображеннями проектів */
+}
+
+/* Стилі для контактної форми */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Стилі для підвалу */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}

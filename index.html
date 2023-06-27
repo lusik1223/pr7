@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Особистий сайт-візитка</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Загальні стилі */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .section {
+      padding: 80px 0;
+      margin-bottom: 50px; /* Додано відстань між секціями */
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    /* Стилі для навігаційного меню */
+    .navbar {
+      background-color: #f8f9fa;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+    }
+
+    .nav-link {
+      font-size: 18px;
+    }
+
+    /* Стилі для секцій */
+    .profile-picture {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 30px;
+    }
+
+    .skill,
+    .progress-bar,
+    .project {
+      margin-bottom: 80px; /* Збільшено відстань між секціями */
+    }
+
+    .progress-bar {
+      height: 20px;
+    }
+
+    .project img {
+      width: 100%;
+      max-height: 600px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    /* Стилі для контактної форми */
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+
+    .btn-primary:hover {
+      background-color: #0069d9;
+      border-color: #0062cc;
+    }
+
+    /* Стилі для підвалу */
+    footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Мій сайт-візитка</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Про мене</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Відгуки</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Проекти</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Контакти</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<section id="about" class="section">
+  <div class="container">
+    <center>
+      <h2 class="section-title">Про мене</h2>
+    </center>
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="ilya.jpg" width="400" height="400" alt="Моя фотографія" class="profile-picture">
+      </div>
+      <div class="col-lg-6">
+        <p>
+          Здарова! Ти з дитинства мріяв стати авторитетом на районі, хотів щоб нарешті у твоїй сім'ї почали прислуховуватися до твоєї думки, ти спав і бачив як будеш роз'їджати по райончику на чорному Мерседесі з великим V8 під капотом та гучним вихлопом?
+          Вітаю, друже! Віднині саме у тебе з'явилася можливість втілити всі свої дитячі мрії у реальність.</p>
+        <p>
+          Я, Ілля Сергійович - особистий наставник та піар менеджер. Моя компанія працює з 2008 року.</p>
+        <p>
+          За 15 років ми накопичили величезний досвід в цій не простій сфері. Тому, можеш не сумніватися, в нас є всі необхідні знання та люди, які допоможуть зробити з тебе не просто гідну людину, а щей розкрутити тебе як власний бренд!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section bg-light">
+  <div class="container">
+    <center>
+      <h2 class="section-title">Відгуки наших підопічних</h2>
+    </center>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="skill">
+          <h3>Ставлення до підопічних</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 100%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="skill">
+          <h3>Результат</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 96%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="skill">
+          <h3>Якість наданих послуг</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 99%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <center>
+      <h2 class="section-title">Наші найуспішніші випускники</h2>
+    </center>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="project">
+          <img src="roma.JPG" alt="Проект 1">
+          <h3>Big Baby Romen</h3>
+          <p>Опис проекту 1</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project">
+          <img src="vlad.jpg" alt="Проект 2">
+          <h3>Vladdy Boy</h3>
+          <p>Опис проекту 2</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project">
+          <img src="kola.jpg" alt="Проект 3">
+          <h3>Nikolakakaka</h3>
+          <p>Опис проекту 3</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+
+<section id="contact" class="section bg-light">
+  <div class="container">
+    <h2 class="section-title">Контакти</h2>
+    <p>Якщо ти бажаєш змінити своє життя раз і назавжди - залиши свою заявку і ми зв'яжемося з тобою найближчим часом! </p>
+    <form>
+      <div class="form-group">
+        <label for="name">Ім'я</label>
+        <input type="text" class="form-control" id="name" placeholder="Введи своє ім'я">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Введи свій email">
+      </div>
+      <div class="form-group">
+        <label for="message">Повідомлення</label>
+        <textarea class="form-control" id="message" rows="5" placeholder="Введи своє повідомлення (за бажанням)"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Відправити</button>
+    </form>
+  </div>
+</section>
+
+<footer class="section">
+  <div class="container text-center">
+    <p>&copy; 2008 - 2023 Мій сайт-візитка. Усі права захищені.</p>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
